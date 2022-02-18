@@ -8,8 +8,8 @@ public class PlayerUI : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI m_scoreText;
 
-    public void SetScore(int score)
+    public void SetScore(string score)
     {
-        m_scoreText.text = score.ToString();
+        m_scoreText.text = score;
     }
 }
